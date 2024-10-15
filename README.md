@@ -1,21 +1,28 @@
 # `Clock-design⌚`
+
 ## In the name of GOD...
+
 #### This creative project was created with the aim that wherever you are in the world,
+
 #### you can manage your time and use it as an online platform😍
 
-<img align="right" alt="Coding" width="310" src="img/redme.png">
+<center>
+
+## نسخه جدید [demo](https://kmohadesek.github.io/clock-design/)
 
 
- ### `Programming languages ​​used in the project:`
-- ### HTML
-- ### CSS
-- ### JavaScript
+<img align="center" alt="Coding" width="310" src="img/screenReadme.png">
 
-## نسخه قبل👇
+## نسخه دوم
 
-<img align="right" alt="Coding" width="280" src="img/Screenshot 2023-09-30 173654.png">
+<img align="center" alt="Coding" width="310" src="img/redme.png">
 
+## نسخه اولیه
 
+ <img align="center" alt="Coding" width="280" src="img/Screenshot 2023-09-30 173654.png">
 
+#### Programming languages ​​used in the project :
+
+ HTML🧡 / CSS💚 / JavaScript💛
 
 `made mohdeseh🌠`
