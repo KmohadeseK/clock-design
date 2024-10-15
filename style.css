@@ -1,0 +1,73 @@
+@font-face {
+    font-family: poppinsy;
+    src: url(fonts/Cherry_Bomb_One/CherryBombOne-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppinsy', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.body {
+    width: 100%;
+    min-height: 100vh;
+    background-image:url(img/desktopwall.png) ;
+    color: #984a4a;
+    position: relative;
+}
+
+::selection {
+    background:  #984a4ade;
+    color: rgba(255, 255, 255, 0.751);
+}
+
+.container {
+    width: 760px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.clock {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2em;
+    background-color: rgba(140, 122, 142, 0.333);
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(40px);
+}
+
+.clock span {
+    font-size: 90px;
+    width: 110px;
+    text-align: center;
+    position: relative;
+}
+
+.clock span::after {
+    font-size: 17px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#hrs::after {
+    content: 'HOURS';
+}
+
+#min::after {
+    content: 'MINUTE';
+}
+
+#sec::after {
+    content: 'SECONDS';
+}
